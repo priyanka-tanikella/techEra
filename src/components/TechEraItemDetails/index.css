@@ -1,0 +1,60 @@
+.tech-era-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.tech-era-details-view-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tech-era-details-img {
+  width: 360px;
+  height: 430px;
+}
+.details-content-container {
+  background-color: white;
+  box-shadow: #64748b 3px 2px 2px;
+  padding: 20px;
+  max-height: 450px;
+  max-width: 370px;
+}
+.course-name {
+  font-size: 25px;
+  font-weight: 600;
+}
+.course-description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #64748b;
+  max-width: 300px;
+  font-family: 'Roboto';
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-family: 'Roboto';
+  padding-top: 50px;
+}
+.failure-image {
+  width: 30%;
+}
+.failure-heading {
+  color: #475569;
+  font-weight: 600;
+}
+.failure-description {
+  color: #64748b;
+}
+.retry-button {
+  background-color: #4656a1;
+  height: 35px;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}

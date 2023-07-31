@@ -1,0 +1,22 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  width: 220px;
+  margin-left: 25px;
+}
+.item-logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+.name {
+  color: #1e293b;
+  font-size: 22px;
+  font-weight: 600;
+}
+.nav-link {
+  text-decoration: none;
+}

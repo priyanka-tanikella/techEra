@@ -40,8 +40,7 @@ class TechEraItemDetails extends Component {
         techEraDetailsData: updatedData,
         apiStatus: apiStatusConstants.success,
       })
-    }
-    if (response.status === 401) {
+    } else {
       this.setState({apiStatus: apiStatusConstants.failure})
     }
   }

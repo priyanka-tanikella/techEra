@@ -26,7 +26,6 @@ class Home extends Component {
     const options = {method: 'GET'}
     const response = await fetch(url, options)
     const data = await response.json()
-    console.log(data)
 
     if (response.ok) {
       const updatedData = data.courses.map(eachEra => ({
@@ -38,8 +37,7 @@ class Home extends Component {
         techEraList: updatedData,
         apiStatus: apiStatusConstants.success,
       })
-    }
-    if (response.status === 401) {
+    } else {
       this.setState({apiStatus: apiStatusConstants.failure})
     }
   }
